@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-click {
+    @apply bg-gray-SecondaryColor text-white border-l-6 rounded-sm border-orange-Secondary;
+  }
+  .btn-hover {
+    @apply bg-gray-SecondaryColor text-white;
+  }
+  .tooltip {
+    @apply invisible w-32 bg-white text-black text-center rounded-lg py-2
+    absolute z-10 top-150% left-1/2 ml-14;
+  }
+}
